@@ -28,7 +28,7 @@ int main() {
 
     //Sort the array
 
-    bubbleSort(inner, outer, didSwap, temp, nums);
+    bubbleSortInt(inner, outer, didSwap, temp, nums);
 
     //Now list the array as it currently is after sorting
     puts("\nHere is the list after the bubbleSort:");
