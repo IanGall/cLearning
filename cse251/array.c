@@ -26,6 +26,11 @@ int main() {
                               "Just Go With It", "Gnomeo and Juliet", "Drive Angry",
                               "Justin Beiber: Never Say Never", "Big Mommas: Like Father, Like Son",
                               "True Grit"};
+//    //test
+//    printf("%x\n", names[0]+1);
+//    printf("%c\n", *(names[0]+1));
+//    printf("%x\n", names[1]);
+
     int highestGrossIndex = 0;
     double highestGross = 0;
     double maxGross[MaxGrosses] = {500000, 1000000, 2000000, 4000000, 10000000};
@@ -91,6 +96,11 @@ void selectSort(int size, double pDouble[10], char *pString[10]) {
     }
 }
 
+/**
+ * swap pointers
+ * @param pString a pointer to the pointer to a char type value
+ * @param pString1
+ */
 void swapChars(char **pString, char **pString1) {
     char *temp = *pString;
     *pString = *pString1;
