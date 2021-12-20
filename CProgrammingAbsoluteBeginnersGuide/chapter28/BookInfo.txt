@@ -1,0 +1,14 @@
+
+
+Here is the collection of books: 
+#1: 1 by 11
+It is 111 pages and cost $11.10
+
+#2: 2 by 22
+It is 222 pages and cost $22.20
+
+#3: 3 by 33
+It is 333 pages and cost $33.30
+
+
+More books to come!
