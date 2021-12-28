@@ -32,7 +32,7 @@ void displayWorld(int cave[], int *agent, int agentDir);
 
 int differenceByDirection(int dir);
 
-bool displayStatus(int cave[], int *agent);
+bool displayStatus(int cave[], int *pWumpus);
 
 void fireByDirection(int direction, int *agentRoom);
 
