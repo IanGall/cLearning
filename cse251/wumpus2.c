@@ -56,11 +56,11 @@ int main() {
     createWorld(cave);
     room = getEmptyRoom(cave);
     *room = Wumpus;
-    agentRoom = getEmptyRoom(cave);
-    agentDirection = rand() % 4;
     for (int i = 0; i < PitSize; ++i) {
         *getEmptyRoom(cave) = Pit;
     }
+    agentRoom = getEmptyRoom(cave);
+    agentDirection = rand() % 4;
 
     /* The game loop */
     while (true) {
