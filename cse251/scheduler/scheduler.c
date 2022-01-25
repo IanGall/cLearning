@@ -5,7 +5,7 @@
 
 #include "scheduler.h"
 #include "input.h"
-#include "display.h"
+#include "display_h.h"
 
 void deleteEvents(Event *pEvents, int *pLength);
 

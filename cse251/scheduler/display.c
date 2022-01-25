@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //#include "input.h"
-#include "display.h"
+#include "display_h.h"
 
 
 void displayActiveEvents(Event *pEvents, int length) {
