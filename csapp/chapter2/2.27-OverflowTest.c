@@ -7,7 +7,7 @@
 int uadd_ok(unsigned x, unsigned y);
 
 int main() {
-    unsigned int y = 111;
+    unsigned int y = 1;
     unsigned int x = UINT_MAX - y;
     unsigned int z = 0;
     printf("uadd_ok(%u,%u):%d\n", x, y, uadd_ok(x, y));
